@@ -122,6 +122,7 @@
 			if (params["responsive"]) {
 				content.setAttribute('style','display: inline-block; position: relative; width: 100%; height:0; padding-bottom: 98%; vertical-align: middle;');
 			} else {
+				content.setAttribute('style','position:relative; height:'+(parseInt(params["width"])+8)+'px;');
 				svg.setAttribute('width', params["width"]);
 			}
 
