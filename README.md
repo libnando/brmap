@@ -5,6 +5,7 @@ brMap
 
 Intended to provide some data visualizations based on geographical data. It's SVG-based, can scale to any screen size.
 
+* Mapa do Brasil (HTML5, SVG, js) - mapa interativo para visualização de dados. Empacotado em um único arquivo Javascript.
 
 ---
 
