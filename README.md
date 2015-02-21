@@ -68,6 +68,32 @@ Example:
 ```
 ---
 
+#### Browser support
+
+<table width="100%" style="text-align: center;">
+  <thead>
+    <tr>
+      <td>Safari</td>
+      <td>Firefox</td>
+      <td>Chrome</td>
+      <td>IE8</td>
+      <td>IE9</td>
+      <td>IE10</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✖†</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### Demos
 
  - [Default](http://bloosoft.com.br/os/brmap/default.html)
