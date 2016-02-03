@@ -92,9 +92,3 @@ Example:
     </tr>
   </tbody>
 </table>
-
-
-#### Demos
-
- - [Default](http://bloosoft.com.br/os/brmap/default.html)
- - [Specific](http://bloosoft.com.br/os/brmap/specific.html)
