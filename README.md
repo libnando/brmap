@@ -24,7 +24,7 @@ Example:
 </head>
 <body>
 	
-	<div style="width: 600px;">
+	<div style="max-width: 600px;">
 		<div id="br_mine"></div>
 	</div>
 	
