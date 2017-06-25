@@ -1,1 +1,26 @@
-Demo brMap
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Brazil SVG</title>
+</head>
+<body>
+	
+	<div style="width: 600px;">
+		<div id="br_mine"></div>
+	</div>
+	
+	<script type="text/javascript" src="brmap.js"></script>
+	<script type="text/javascript">
+		new BrMap({
+			wrapper: '#br_mine', 
+			selectStates: ['sc'],
+			callbacks: {
+				click: function (element, uf) { alert(uf); },
+				mouseover: function (element, uf){ console.log(uf); },
+			}
+		});
+	</script>
+
+</body>
+</html>
