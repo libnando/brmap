@@ -6,18 +6,22 @@
 </head>
 <body>
 	
+	<div id="any-"></div>
 	<div style="max-width: 600px;">
 		<div id="br_mine"></div>
 	</div>
 	
-	<script type="text/javascript" src="brmap.js"></script>
-	<script type="text/javascript">
-		new BrMap({
+	<script src="brmap.js"></script>
+	
+	<script>
+		BrMap.Draw({
 			wrapper: '#br_mine', 
 			selectStates: ['sc'],
 			callbacks: {
-				click: function (element, uf) { alert(uf); },
-				mouseover: function (element, uf){ console.log(uf); },
+				click: (element, uf) => { alert(uf); },
+				mouseover: (element, uf) => { 
+					document.querySelector("#any-").appendChild(document.createTextNode(uf+" "));
+				},
 			}
 		});
 	</script>
